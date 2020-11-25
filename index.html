@@ -1,19 +1,452 @@
-<!doctype html>
-<html lang="nl">
-	
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Howdy</title>
-	
-	<link href="styles/style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Video</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" href="./media/favicon.png">
 </head>
-
 <body>
-	<h1>Howdy</h1>
-	<script src="scripts/script.js"></script>
+    <header>
+        <nav>
+            <ul>
+                <li><img width="112" src="./media/Amazon_Prime_Video_logo.svg" alt=""></li>
+                <li>
+                    <label>
+                        <a class="dropdownmobileselect nondesktop">
+                        <span>Browse</span>
+                        </a>
+                    </label>
+                    <img class="dropdownarrowmobile nondesktop" width="8.59" src="./media/drop-down-arrow.svg" alt="">
+                    <ul class="dropdownmobile">
+                        <li id="topitem" class=" subitemmobile">
+                            <a href="">Home</a>
+                        </li>
+                        <li class="subitemmobile">
+                            <a href="">Store</a>
+                        </li>
+                        <li class="subitemmobile">
+                            <a href="">Channels</a>
+                        </li>
+                        <li class="subitemmobile">
+                            <label>
+                                <a class="dropdownselectcategories">
+                                <span>Categories</span>
+                                </a>
+                            </label>
+                            <img class="dropdownarrowmobile" width="8.59" src="./media/drop-down-arrow.svg" alt="">
+                            <ul class="dropdowncategories">
+                                <li id="topitem" class="subitemcategories">
+                                    <a href="">TV</a>
+                                </li>
+                                <li class="subitemcategories">
+                                    <a href="">Movies</a>
+                                </li>
+                                <li class="subitemcategories">
+                                    <a href="">Kids</a>
+                                </li>
+                                <li class="subitemcategories">
+                                    <a href="">Included with Prime</a>
+                                </li>
+                                <li class="subitemcategories">
+                                    <a href="">Originals</a>
+                                </li>
+                                <li class="subitemcategories">
+                                    <a href="">Available to download</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="subitemmobile">
+                            <a href="">My Stuff</a>
+                        </li>
+                    </ul>
+                </li>
+                <li id="current"><a href="index.html">Home</a></li>
+                <li><a href="">Store</a></li>
+                <li><a href="">Channels</a></li>             
+                <li>
+                    <label>
+                        <a class="dropdownselect">
+                        <span>Categories</span>
+                        </a>
+                    </label>
+                    <img class="dropdownarrow" width="8.59" src="./media/drop-down-arrow.svg" alt="">
+                    <ul class="dropdown">
+                        <li id="topitem" class="subitem">
+                            <a href="">TV</a>
+                        </li>
+                        <li class="subitem">
+                            <a href="">Movies</a>
+                        </li>
+                        <li class="subitem">
+                            <a href="">Kids</a>
+                        </li>
+                        <li class="subitem">
+                            <a href="">Included with Prime</a>
+                        </li>
+                        <li class="subitem">
+                            <a href="">Originals</a>
+                        </li>
+                        <li class="subitem">
+                            <a href="">Available to download</a>
+                        </li>
+                    </ul>
+                    
+                </li>
+                <li><a href="">My Stuff</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+            <img src="./media/banner1.webp" class="slides">
+            <img src="./media/Mobile1.webp" alt="" class="mobileshow">
+            </div>
+        
+            <div class="mySlides fade">
+            <img src="./media/banner2.webp" class="slides">
+            <img src="./media/Mobile2.webp" alt="" class="mobileshow">
+            </div>
+        
+            <div class="mySlides fade">
+            <img src="./media/banner3.webp" class="slides">
+            <img src="./media/Mobile3.webp" alt="" class="mobileshow">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div class="bolletjes">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+        <section class="slider">
+            <img src="./media/primelogo.png" alt="">
+            <h2>Amazon Originals and Exclusives</h2>
+
+            <button class="scrollknoppen" data-direction="prev" aria-label="previous"> < </button>
+            <button class="scrollknoppen" data-direction="next" aria-label="next"> > </button>
+            <ul>
+              <li>
+                
+                <a href=""><img src="./media/movie8.webp" alt="v"/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie2.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie3.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie1.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie5.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie6.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie7.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie4.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie2.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie3.webp" alt=""/></a>
+              </li>
+          
+          
+              <li>
+                
+                <a href=""><img src="./media/movie4.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie5.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie6.webp" alt=""/>	</a>		
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie7.webp" alt=""/></a>
+              </li>
+            </ul>
+          </section>
+
+          <section class="slider">
+            <h2>Watch next TV and movies</h2>
+
+            <button class="scrollknoppen" data-direction="prev" aria-label="previous"> < </button>
+            <button class="scrollknoppen" data-direction="next" aria-label="next"> > </button>
+            <ul>
+              <li>
+                
+                <a href=""><img src="./media/movie1.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie2.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie3.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie4.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie5.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie6.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie7.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie1.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie2.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie3.webp" alt=""/></a>
+              </li>
+          
+          
+              <li>
+                
+                <a href=""><img src="./media/movie4.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie5.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie6.webp" alt=""/>	</a>		
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie7.webp" alt=""/></a>
+              </li>
+            </ul>
+          </section>
+          
+          <section class="slider">
+            <h2>Your Channels</h2>
+
+            <button class="scrollknoppen" data-direction="prev" aria-label="previous"> < </button>
+            <button class="scrollknoppen" data-direction="next" aria-label="next"> > </button>
+            <ul>
+              <li>
+                
+                <a href=""><img src="./media/movie1.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie2.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie3.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie4.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie5.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie6.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie7.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie1.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie2.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie3.webp" alt=""/></a>
+              </li>
+          
+          
+              <li>
+                
+                <a href=""><img src="./media/movie4.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie5.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie6.webp" alt=""/>	</a>		
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie7.webp" alt=""/></a>
+              </li>
+            </ul>
+          </section>
+
+          <section class="slider">
+            <img src="./media/primelogo.png" alt="">
+            <h2>Recently added movies</h2>
+
+            <button class="scrollknoppen" data-direction="prev" aria-label="previous"> < </button>
+            <button class="scrollknoppen" data-direction="next" aria-label="next"> > </button>
+            <ul>
+              <li>
+                
+                <a href=""><img src="./media/movie1.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie2.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie3.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie4.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie5.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie6.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie7.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie1.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie2.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie3.webp" alt=""/></a>
+              </li>
+          
+          
+              <li>
+                
+                <a href=""><img src="./media/movie4.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie5.webp" alt=""/></a>
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie6.webp" alt=""/>	</a>		
+              </li>
+          
+              <li>
+                
+                <a href=""><img src="./media/movie7.webp" alt=""/></a>
+              </li>
+            </ul>
+          </section>
+    </main>
+    <footer>
+        <img width="112" src="./media/Amazon_Prime_Video_logo.svg" alt=""><br>
+        <a href="">Terms and Privacy Notice</a>
+        <a href="">Send us feedback</a>
+        <a href="">Help</a>
+        <p>© 1996-2020, Amazon.com, Inc. or its affiliates</p>
+        <script src="./js/functions.js"></script>
+    </footer>
 </body>
-	
 </html>
