@@ -17,15 +17,39 @@ nav{
   width: 100vw;
   background-color: #1a242f;
 }
-
-#current{
+nav > ul > li:first-of-type > a > img{
+  width: 112px;
+}
+nav > ul > li:nth-of-type(3){
   font-weight: bold;
   text-decoration: underline;
 }
-header > nav > ul > li > img{
+header > nav > ul > li:first-of-type > a > img{
   filter: invert(0%) sepia(51%) saturate(0%) hue-rotate(346deg) brightness(1000%) contrast(100%);
   padding: 0 0 0 1em;
 }
+header > nav > ul > li:nth-child(8) > img{
+  filter: invert(0%) sepia(51%) saturate(0%) hue-rotate(346deg) brightness(100%) contrast(0%);
+  padding: 0 0 0 1em;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 11em;
+  top: 1.7em;
+}
+header > nav > ul > li:nth-child(9) > a{
+  position: absolute;
+  top:1.8em;
+  right: 3em;
+}
+header > nav > ul > li:nth-child(9) > img{
+  position: absolute;
+  padding: 0 0 0 1em;
+  width: 32px;
+  height: 32px;
+  right: 7em;
+}
+
 header > nav > ul{
   padding-top:1.5em;
   padding-bottom: 1em;
@@ -44,193 +68,324 @@ header > nav > ul > li > a:hover{
     text-decoration: none;
     color: white;
 }
-.dropdownarrow{
+nav > ul > li:nth-of-type(6) > img{
     filter: invert(100%);
     width: 8.59px;
 }
-.dropdownarrowmobile{
-    filter: invert(100%);
-    width: 8.59px;
-}
-.nondesktop{
-    display:none;
-}
-.dropdown{
-    display:none;
-    position: fixed;
-    z-index: 1;
-}
-.dropdownmobile{
+nav > ul > li > ul{
   display: none;
   position: fixed;
   z-index: 1;
-  width: 100%;
 }
-.dropdownmobile > li > a{
+nav > ul > li > ul > li > a{
   text-decoration: none;
 }
-.dropdowncategories{
+nav > ul > li > ul > li > ul{
     display: none;
     z-index: 2;
 }
-.slides{
-    width: 100%;
-}
-.subitem{
+nav > ul > li:nth-of-type(6) > ul > li{
     list-style-type: none;
     margin-left:-3em;
     padding:1em 2em 1em 2em;
     border-bottom:1px solid grey;
     background-color: #252e39;
 }
-.subitemmobile{
-  margin-left:-13em;
+nav > ul > li > ul > li{
+  margin-left:-14em;
   list-style-type: none;
   padding:1em 2em 1em 2em;
   border-bottom:1px solid grey;
   background-color: #252e39;
 }
-.subitemcategories{
+nav > ul > li > ul > li > ul > li{
   list-style-type: none;
-  margin-left:-5em;
   padding:1em 2em 1em 2em;
   border-bottom:1px solid grey;
   background-color: #323e4c;
 }
-.topitem{
+nav > ul > li > ul > li > ul > li > a{
+  text-decoration: none;
+}
+nav > ul > li > ul > li:first-of-type{
     margin-top:0.5em;
 }
-.subitem > a{
-    text-decoration: none;
+.laatzien{
+  display:block;
+  margin-top:1em;
+ }
+ nav > ul > li:nth-of-type(2){
+  display:none;
 }
-  .laatzien{
-    display:block;
-    margin-top:1em;
+.laatzien2{
+  display:block;
+  margin-top:1em;
   }
-  .laatzien2{
-    display:block;
-    margin-top:1em;
-    
-  }
-  .laatzien3{
-    display:block;
-    margin-bottom:-1.01em;
-    margin-top:1em;
-  }
-  section > img, section > h2{
-    display: inline-block;
-  }
-  main > section > img{
-    width: 48px;
-    margin: .5em 0 0 2%;
-  }
-  main > section:first-of-type{
-    margin-top: 2em;
-  }
-  section > h2{
-    margin: 0 0 0 2%;
-    font-size: 19px;
-  }
-  main > section {
-    position:relative;
-  }
-  main > section > ul {
-    margin:0; padding:.5em 0 0 2em;
-    list-style:none;
-    background-color: #0f171e;
-    display:flex;
-    overflow:auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth; 
-  }
-  ::-webkit-scrollbar {
-    width: 0px;
-    background: transparent; /* scrollbar transparent */
-  }
-  main > section:first-of-type > ul > li {
-    width:100vw;
-    left:0;
-  }
-  main > section > ul > li {
-    position:relative;
-    width:16.67vw;
-    padding:0;
-    flex-shrink:0;
-    padding-left:1.5%;
-  }
-  main > section:nth-of-type(3) > ul > li{
-    width:30vw;
-  }
-  main > section > ul > li > h2 {
-    position:absolute;
-    left:0; top:0;
-    margin:0; padding:.5em;
-    font-size:1em;
-    background-color:transparent;
-    color:white;
-  }
-  main > section > ul > li > a > img {
-    display:block;
-    width:100%;
-    height:100%;
-    border-radius: 3px;
-  }
-  main > section > button {
-    position:absolute;
-    top:2.4em;
-    width:2em; line-height:18vh;
-    z-index:5;
-    font-size:1em;
-    font-weight:bold;
-    color:white;
-    background: rgba(0, 0, 0, 0.5);
-    border:none;
-    appearance:none;
-  }
-  main > section > button:first-of-type {
-    left:0;
-  }
-  main > section > button:last-of-type {
-    right:0;
-  }
-  footer{
-    display: block;
-    text-align: center;
-    justify-content: center;
-  }
-  footer > img{
-    filter: invert(0%) sepia(51%) saturate(0%) hue-rotate(346deg) brightness(1000%) contrast(100%);
-  }
-  footer > a{
+.laatzien3{
+  display:block;
+  margin-bottom:-1.01em;
+  margin-left: -4em;
+  margin-top:1em;
+}
+section > img, section > h2{
+  display: inline-block;
+}
+.indexpagina > section > img{
+  width: 48px;
+  margin: .5em 0 0 .7em;
+}
+main > section > h2{
+  margin: 0 0 0 .55em;
+  font-size: 19px;
+}
+main > section {
+  position:relative;
+}
+main > section > ul {
+  margin:0; padding:0;
+  list-style:none;
+  background-color: #0f171e;
+  display:flex;
+  overflow:auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth; 
+}
+.indexpagina > section:first-of-type > ul > li{
+  scroll-snap-align: center;
+  left:0;
+  width:100vw;
+}
+.indexpagina > section:nth-of-type(3) > ul > li, .indexpagina > section:nth-of-type(4) > ul > li, .indexpagina > section:nth-of-type(5) > ul > li, .indexpagina > section:nth-of-type(6) > ul > li, .indexpagina > section:nth-of-type(7) > ul > li, .indexpagina > section:nth-of-type(8) > ul > li {
+  padding-left:.7em;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* scrollbar transparent */
+}
+main > section > ul > li {
+  position:relative;
+  width:16.67vw;
+  padding:0;
+  flex-shrink:0;
+}
+main > section:nth-of-type(4) > ul > li{
+  width:30vw;
+}
+main > section > ul > li > h2 {
+  position:absolute;
+  left:0; top:0;
+  margin:0;
+  font-size:1em;
+  background-color:transparent;
+  color:white;
+}
+main > section > ul > li > a > img {
+  display:block;
+  width:100%;
+  height:100%;
+  border-radius: 4px;
+}
+.indexpagina > section:first-of-type > ul > li > a > img {
+  border-radius: 0;
+}
+main > section:first-of-type > button {
+  background: transparent!important;
+}
+main > section > button:first-of-type {
+  position:absolute;
+  top:0;
+  height: 100%;
+  width:2em;
+  z-index:5;
+  font-size:2em;
+  font-weight:bold;
+  color:white;
+  background: rgba(0, 0, 0, 0.5);
+  border:none;
+  appearance:none;
+  left: 0;
+}
+main > section > button:nth-of-type(2) {
+  position:absolute;
+  top: 0;
+  height:100%;
+  width:2em;
+  z-index:5;
+  font-size:2em;
+  font-weight:bold;
+  color:white;
+  background: rgba(0, 0, 0, 0.5);
+  border:none;
+  appearance:none;
+  right: 0;
+}
+footer{
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+footer > img{
+  filter: invert(0%) sepia(51%) saturate(0%) hue-rotate(346deg) brightness(1000%) contrast(100%);
+}
+footer > a{
   text-align: center;
   font-size: 13px;
   text-decoration: none;
   color:#79B8F3;
+}
+footer > p{
+  font-size: 13px;
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+.indexpagina > section:nth-of-type(2){
+  display: none;
+}
+
+
+
+
+  @media screen and (max-width: 768px) {
+    nav > ul > li > ul{
+      display: none;
+      position: fixed;
+      z-index: 1;
+      width: 100%;
+    }
+    nav > ul > li:nth-of-type(2){
+        display:block;
+    }
+    nav > ul > li:nth-of-type(2) > img{
+      filter: invert(100%);
+      width: 8.59px;
   }
-  footer > p{
-    font-size: 13px;
-    margin-top: 1em;
-    margin-bottom: 3em;
+  nav > ul > li:nth-of-type(2) > ul > li > img{
+    filter: invert(100%);
+    width: 8.59px;
   }
+
+  header > nav > ul > li:nth-child(9) > a{
+    display: none;
+  }
+    .dropdownselect, img.dropdownarrow{
+        display:none;
+    }
+    nav > ul > li{
+      display: none;
+    }
+    nav > ul > li:nth-child(1){
+      display: block;
+    }
+    nav > ul > li:nth-child(2){
+      display: block;
+    }
+    nav > ul > li:nth-child(8){
+      display: block;
+    }
+    nav > ul > li:nth-child(9){
+      display: block;
+    }
+    header > nav > ul > li:nth-child(8) > img{
+      position:absolute;
+      filter: invert(0%) sepia(51%) saturate(0%) hue-rotate(346deg) brightness(100%) contrast(0%);
+      padding: 0 0 0 1em;
+      width: 20px;
+      height: 20px;
+      right: 4em;
+      top: 1.7em;
+    }
+    header > nav > ul > li:nth-child(9) > a{
+      position: absolute;
+      top:1.8em;
+      right: 1em;
+    }
+    header > nav > ul > li:nth-child(9) > img{
+      position: absolute;
+      padding: 0 0 0 1em;
+      width: 28px;
+      height: 28px;
+      right: 1em;
+    }
+    .prev, .next {
+        top: 40%;
+    }
+    .bolletjes{
+       display:none;
+    }
+    nav > ul > li:nth-of-type(6) > label > a{
+      display:block;
+    }
+    .myslides{
+        height:33vh;
+    }
+    nav > ul > li:nth-of-type(6) > img{
+      filter: invert(100%);
+      width: 8.59px;
+      display:block;
+  }
+  .indexpagina > section:first-of-type{
+    display: none;
+  }
+  .indexpagina > section:nth-of-type(2){
+    display: block;
+  }
+  .indexpagina > section:nth-of-type(2) > ul > li{
+    scroll-snap-align: center;
+    left:0;
+    width:100vw;
+  }
+  .indexpagina > section:nth-of-type(2) > ul > li > a > img {
+    border-radius: 0;
+  }
+    section > img, section > h2{
+      display: block;
+    }
+    main > section > button {
+      display: none;
+    }
+    main > section > ul > li {
+      width:45%;
+    }
+    .indexpagina > section:nth-of-type(4) > ul > li{
+      width:95vw;
+    }
+    .mobileshow{
+      display: block;
+      width: 100%;
+    }
+    .slides{
+      display: none;
+    }
+
+
+
+  /* Detail pagina */
   .detail > img:first-of-type{
     width: 100vw;
     z-index: 2;
   }
+  .detail > a:first-of-type{
+    background-color: #0f79af;
+    padding: 1.5em 1em 1.5em 1em;
+    margin-top: 1.5em;
+  }
   .detail > a{
     text-decoration: none;
-  }
-  .detail > img:last-of-type{
-    margin-right:1em;
-    margin-top:1em;
-    margin-left:.5em;
+    background-color: #425265;
+    padding: 1.2em 1em 1.2em 1em;
+    margin-bottom: .5em;
+    font-size: 15px;
+    border-radius: 5px;
   }
   .detail > h1{
     position: absolute;
     top: 0;
-    margin-top: 68%;
+    margin-top: 6em;
     z-index: 10;
     margin-left:.5em;
     margin-right:.5em;
+    font-size: 30px;
   }
   .detail > button{
     background-color: #425265;
@@ -242,10 +397,17 @@ header > nav > ul > li > a:hover{
     border-radius: 3px;
     font-size:16px;
   }
+  .detail > p:first-of-type{
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
   .detail > p, .detail > button, .detail > a{
     margin-left:.5em;
     margin-right:.5em;
     display: block;
+  }
+  .detail > p:first-of-type{
+    color:#8197a4;
   }
   .desc{
     margin-left:.5em;
@@ -263,9 +425,6 @@ header > nav > ul > li > a:hover{
   .desc > p{
     color:#8197A4;
   }
-  .desc > p:first-of-type{
-    color: white;
-  }
   .desc> p:last-of-type{
     margin-top:3em;
   }
@@ -275,58 +434,21 @@ header > nav > ul > li > a:hover{
   .mobileshow{
     display: none;
   }
-  @media screen and (max-width: 768px) {
-    header > nav > ul > li > a{
-        display:none;
-    }
-    header > nav > ul > li > img{
-      padding: 0 0 0 0;
-      left: 0;
+  .detailpagina > section > ul > li{
+    padding-left:.7em;
+    margin-bottom: 10em;
+    width: 60vw;
   }
-    .dropdownselect, img.dropdownarrow{
-        display:none;
-    }
-    nav > ul > li{
-      display: none;
-    }
-    nav > ul > li:nth-child(1){
-      display: block;
-    }
-    nav > ul > li:nth-child(2){
-      display: block;
-    }
-    .prev, .next {
-        top: 40%;
-    }
-    .bolletjes{
-       display:none;
-    }
-    .myslides{
-        height:33vh;
-    }
-    .nondesktop{
-        display:block;
-    }
-    section > img, section > h2{
-      display: block;
-    }
-    main > section > button {
-      display: none;
-    }
-    main > section > ul > li {
-      width:45%;
-    }
-    main > section > ul {
-    padding-left:0.2em;
-    }
-    main > section:nth-of-type(3) > ul > li{
-      width:95vw;
-    }
-    .mobileshow{
-      display: block;
-      width: 100%;
-    }
-    .slides{
-      display: none;
-    }
+  .detailpagina > section > h2{
+    margin-top: 5em;
   }
+  .detailpagina > section:nth-of-type(3) > a:first-of-type{
+    font-size: 19px;
+    margin-left: 30%;
+  }
+  .detailpagina > section:nth-of-type(3) > a:nth-of-type(2){
+    font-size: 19px;
+    text-decoration: none;
+    margin-left: 1em;
+  }
+}
