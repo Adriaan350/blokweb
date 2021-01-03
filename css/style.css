@@ -299,7 +299,7 @@ footer > p{
     height: 65vh;
     width: 96.5%;
     padding: 1em 0 0 3.5%;
-    background: linear-gradient(90deg, rgba(15,23,30,1) 33%, rgba(15,23,30,0.5) 100%);
+    background: linear-gradient(90deg, rgba(15,23,30,1) 49%, rgba(15,23,30,0.5) 100%);
     z-index: -1;
     overflow-y: scroll;
     font-weight: lighter;
@@ -312,6 +312,7 @@ footer > p{
     margin-left: 2.7em;
     max-width: 45vw;
     font-size: 1.1em;
+    margin-bottom: 1em;
   }
   .detailpagina > section:first-of-type > p, .detailpagina > section:first-of-type > button, .detailpagina > section:first-of-type > a{
     margin-left:.5em;
