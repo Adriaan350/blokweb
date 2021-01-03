@@ -18,7 +18,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+Home
+<img src="./media/namaakhome.png" width="375px" alt="omschrijving van de pagina">
+
+Detail
+<img src="./media/namaakdetail.png" width="375px" alt="omschrijving van de pagina">
 
 
 
