@@ -7,8 +7,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 1. https://www.primevideo.com/
-2. -bron 2-
-3. -...-
 
 
 
@@ -34,7 +32,11 @@ Detail
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
+Het gaat goed de header is helemaal klaar en werkend met javascript.
+
+Home 0.2
+<img src="./media/home0.2.png" width="375px" alt="omschrijving van de pagina">
 
 
 
@@ -42,25 +44,16 @@ Detail
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Het gaat goed, ik heb nog niet veel gedaan.
 
 **Screenshot(s):**
+Home 0.1
 
--screenshot(s) van hoe ver je bent met korte uitleg-
+<img src="./media/home0.1.png" width="375px" alt="omschrijving van de pagina">
 
-### Agenda voor meeting
-
--samen met je groepje opstellen-
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
 
 ### Verslag van meeting
-
--na afloop snel uitkomsten vastleggen-
+De home pagina had een begin. En de header had al een begin. De tweede pagina was nog niks. Dus ik moest door werken aan de home pagina en een begin maken aan de tweede pagina.
 
 
 
