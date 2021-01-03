@@ -1,9 +1,6 @@
 # Procesverslag
 **Auteur:** Adriaan van der Heijden
 
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-
 
 ## Bronnenlijst
 1. https://www.primevideo.com/
@@ -12,7 +9,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Alles ging goed alleen vond ik de gradient responsive fixen op de detail pagina lastig.
 
 **Screenshot(s):**
 
@@ -26,19 +23,27 @@ Detail
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
+De home pagina is bijna af en de detail pagina ben ik aan begonnen.
+
+Home 0.3
+<img src="./media/home0.3.png" width="375px" alt="omschrijving van de pagina">
+
+### Verslag van meeting
+De Home pagina is al bijna af. Alleen moet ik alle classes verwijderen en alles via css ophalen. De detail pagina is nog karig.
 
 
 
 ## Voortgang 2 (week 5)
 
 ### Stand van zaken
-Het gaat goed de header is helemaal klaar en werkend met javascript.
+Het gaat goed de header is helemaal klaar en werkend met javascript. De rest nog niet veranderd.
 
 Home 0.2
 <img src="./media/home0.2.png" width="375px" alt="omschrijving van de pagina">
 
-
+### Verslag van meeting
+De header werkt helemaal. Nog niet de goede font. De tweede pagina ben ik nog niet aan begonnen.
 
 ## Voortgang 1 (week 3)
 
